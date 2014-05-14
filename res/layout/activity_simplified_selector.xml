@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="clip_horizontal"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.NoTitleBar" >
+
+	        <ImageView
+	            android:id="@+id/imagetop"
+	            android:layout_width="match_parent"
+	            android:layout_height="176dp"
+	            android:layout_alignParentTop="true"
+	            android:layout_margin="1dp"
+	            android:background="#FFFFFF"
+	            android:clickable="true"
+	            android:contentDescription="@string/topURL" >
+	
+	        </ImageView>
+
+	        <ImageView
+	            android:id="@+id/imagemidleft"
+	            android:layout_width="158dp"
+	            android:layout_height="176dp"
+	            android:layout_alignParentLeft="true"
+	            android:layout_centerVertical="true"
+	            android:layout_margin="1dp"
+	            android:background="#FFFFFF"
+	            android:clickable="true"
+	            android:contentDescription="@string/midleftURL">
+	
+	        </ImageView>
+	
+	        <ImageView
+	            android:id="@+id/imagemidright"
+	            android:layout_width="158dp"
+	            android:layout_height="176dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_margin="1dp"
+	            android:background="#FFFFFF"
+	            android:clickable="true"
+	            android:contentDescription="@string/midrightURL" >
+	
+	        </ImageView>         
+
+	        <ImageView
+	            android:id="@+id/imagebotleft"
+	            android:layout_width="158dp"
+	            android:layout_height="177dp"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentLeft="true"
+	            android:layout_margin="1dp"
+	            android:background="#FFFFFF"
+	            android:clickable="true"
+	            android:contentDescription="@string/botleftURL" >
+	
+	        </ImageView>
+	
+	        <ImageView
+	            android:id="@+id/imagebotright"
+	            android:layout_width="158dp"
+	            android:layout_height="177dp"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentRight="true"
+	            android:layout_margin="1dp"
+	            android:background="#FFFFFF"
+	            android:clickable="true"
+	            android:contentDescription="@string/botrightURL" >
+	
+	        </ImageView>           
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="177dp"
+	    android:layout_alignParentTop="true" >
+	    <Button
+    	android:id="@+id/buttontop"
+       	style="?android:attr/buttonStyleSmall"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Change Game"
+       	android:layout_alignParentBottom="true"
+       	android:layout_alignParentRight="true">
+	        
+	    </Button>
+	</RelativeLayout>
+	
+	<RelativeLayout 
+	    android:layout_width="160dp"
+	    android:layout_height="177dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true" >
+	    <Button
+    	android:id="@+id/buttonmidleft"
+       	style="?android:attr/buttonStyleSmall"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Change Game"
+       	android:layout_alignParentBottom="true"
+       	android:layout_alignParentRight="true">
+	        
+	    </Button>
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="160dp"
+	    android:layout_height="177dp"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true" >
+	    <Button
+    	android:id="@+id/buttonmidright"
+       	style="?android:attr/buttonStyleSmall"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Change Game"
+       	android:layout_alignParentBottom="true"
+       	android:layout_alignParentRight="true">
+	        
+	    </Button>
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="160dp"
+	    android:layout_height="177dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentBottom="true" >
+	    <Button
+    	android:id="@+id/buttonbotleft"
+       	style="?android:attr/buttonStyleSmall"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Change Game"
+       	android:layout_alignParentBottom="true"
+       	android:layout_alignParentRight="true">
+	        
+	    </Button>
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="160dp"
+	    android:layout_height="177dp"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentBottom="true" >
+	    <Button
+    	android:id="@+id/buttonbotright"
+       	style="?android:attr/buttonStyleSmall"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Change Game"
+       	android:layout_alignParentBottom="true"
+       	android:layout_alignParentRight="true">
+	        
+	    </Button>
+	</RelativeLayout>
+</RelativeLayout>

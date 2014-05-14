@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Game News</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_selector">SelectorActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="button_send">Send</string>
+    <string name="empty"></string>
+
+    <string-array name="kings">
+        <item>Henry IV</item>
+        <item>Henry V</item>
+        <item> Henry VIII"</item>
+        <item>Richard II</item>
+        <item>Richard III</item>
+    </string-array>
+
+    <string name="title_activity_reader">ReaderActivity</string>
+    <string name="title_activity_simplified_selector">SimplifiedSelectorActivity</string>
+    <string name="topURL">topURL</string>
+    <string name="midleftURL">midleftURL</string>
+    <string name="midrightURL">midrightURL</string>
+    <string name="botleftURL">botleftURL</string>
+    <string name="botrightURL">botrightURL</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    
+    <string name="changeGame">"Change Game"</string>
+
+</resources>
